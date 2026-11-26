@@ -1,0 +1,20 @@
+# build outputs
+/syntonic-odin
+/syntonic-odin-d
+/syntonic-odin-debug
+*.dSYM
+/build-clibs.log
+
+# the C libraries of the sokol bindings, compiled by build.sh
+sokol/*/*.a
+sokol/*/*.o
+sokol/*.o
+sokol/dylib/
+
+# the shader compiler is a third party prebuilt binary; where to get it is in the README
+/tools/sokol-shdc
+
+# frames saved with --capture and F9
+*.tga
+
+.DS_Store
